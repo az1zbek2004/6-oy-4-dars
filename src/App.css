@@ -1,0 +1,35 @@
+.card-wrapper{
+    font-family: serif;
+    background:#FFF;
+    width: 983px;
+    height: 100%;
+    margin: 10px auto;
+    display: flex;
+    border-radius: 4px;
+}
+.category{
+    width: 209px;
+    border-right: 1px solid #D8D8D8;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 160px 0;
+}
+.category h2{
+    cursor: pointer;
+}
+.category h2:hover{
+    transform: scale(1.2);
+    color: #EA5959;
+}
+.uncategory{
+    transform: scale(1.2);
+    color: #EA5959;
+}
+.tasks{
+    padding: 20px 40px;
+}
