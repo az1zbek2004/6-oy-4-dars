@@ -9,6 +9,9 @@ function App() {
   
   function handleClick(e) {
     let cat = e.target.getAttribute("value");
+    
+    setCategory(cat);
+
   }
 
 
